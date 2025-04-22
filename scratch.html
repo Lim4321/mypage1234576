@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BYU Football Fan Page</title>
+    <link rel="stylesheet" href="css/scratch.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Back to Professional Site</a>
+        <a href="WebApp.html">Web App Game</a>
+    </nav>
+
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Welcome to BYU Football Central!</h1>
+        <p>Go Cougars! A fun and fan-made page to celebrate Brigham Young University's football team.</p>
+    </div>
+
+    <!-- Image -->
+    <div class="byulogo">
+        <img src="assets/img/BYULj.jpg" alt="BYU Cougars Logo" />
+
+    </div>
+
+    <!-- List section (unordered list inside ordered list) -->
+    <div class="list-section">
+        <h2>Top 3 Reasons to Love BYU Football</h2>
+        <ol>
+            <li><strong>Tradition</strong>
+                <ul>
+                    <li>Over 100 years of football history</li>
+                    <li>National Champions in 1984</li>
+                </ul>
+            </li>
+            <li><strong>Atmosphere</strong>
+                <ul>
+                    <li>LaVell Edwards Stadium holds over 63,000 fans</li>
+                    <li>Game-day energy is unmatched</li>
+                </ul>
+            </li>
+            <li><strong>Team Spirit</strong>
+                <ul>
+                    <li>The Cougar Fight Song</li>
+                    <li>Dedicated fans and loyal alumni</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- On-page Anchor Links -->
+    <div class="jump-links">
+        <a href="#youtube">Watch a Highlight Video ↓</a> | 
+        <a href="#tableau">See the legends ↓</a>
+    </div>
+
+    <!-- Embedded YouTube Video -->
+    <div id="youtube" class="video">
+        <h2>Hype Video</h2>
+        <iframe width="560" height="560" src="https://www.youtube.com/embed/O9n6ItwJmJ0?si=jBmDCkFb5-DVUy6Q"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <!-- Tableau Embed -->
+    <div id="tableau" class="tableau">
+        <h2>BYU Alumni in the Super Bowl</h2>
+        <div class='tableauPlaceholder' id='viz1745292808440' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Timeline '
+                        src='https://public.tableau.com/static/images/BY/BYUAlumniintheSuperBowl_16437567503580/Timeline/1_rss.png'
+                        style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='BYUAlumniintheSuperBowl_16437567503580/Timeline' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https://public.tableau.com/static/images/BY/BYUAlumniintheSuperBowl_16437567503580/Timeline/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1745292808440');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width = '1400px'; vizElement.style.height = '927px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width = '1400px'; vizElement.style.height = '927px';
+            } else {
+                vizElement.style.width = '100%'; vizElement.style.height = '1227px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+</body>
+</html>
